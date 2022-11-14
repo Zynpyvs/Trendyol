@@ -18,6 +18,7 @@ public class SearchBox  extends  BasePage {
         type(searchBoxLocator, text);
         click(submitButtonLocator);
         click(submitButtonLocator);
+        click(submitButtonLocator);
     }
 }
 
