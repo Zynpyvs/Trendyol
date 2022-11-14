@@ -20,7 +20,7 @@ public class Test_Process extends Base_Test {
         homePage= new HomePage(driver);
         homePage.acceptCookies();
         productsPage= new ProductsPage(driver);
-        homePage.searchBox().search("toka");
+        homePage.searchBox().search("etek");
         Thread.sleep(5000);
         productDetailPage=new ProductDetailPage(driver);
         productDetailPage.anyClick();
