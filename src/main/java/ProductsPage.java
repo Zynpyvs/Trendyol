@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ProductsPage extends BasePage {
 
-    By shippingLocator=  new By.ByCssSelector("flotr-item-text chckd ctgry");
+    By shippingLocator=  new By.ByCssSelector("fltr-item-text chckd ctgry");
     By productNameLocator=  new By.ByClassName("product-down");
 
 
